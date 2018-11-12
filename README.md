@@ -2,6 +2,7 @@
 
 Code Club is an app that allows new developers to prepare for technical interviews with access to commonly asked interview questions and algorithms. 
 
+## Features 
 User Functions
 - Users can select interview questions and go through flashcards with interview questions and answers based on various categories 
 - Users can select coding questions and select an algorith based on various categories 
@@ -18,3 +19,6 @@ Admin Function
     Password: admin
 - Admin can create new questions both as a flashcard and an algorithm 
 - Question will be immediately available for users to see and test 
+
+## Technology 
+HTML, CSS, JavaScript, React.Js, Mongo DB, APIs, Heroku and Github

@@ -16,7 +16,7 @@ User Functions
 Admin Function 
 - Log in as an admin to see the additional features: 
     - Username: admin@gmail.com
-    - Password: admin
+    - Password: test
 - Admin can create new questions both as a flashcard and an algorithm 
 - Question will be immediately available for users to see and test 
 

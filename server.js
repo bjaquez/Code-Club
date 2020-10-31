@@ -59,7 +59,11 @@ app.get("*", (req, res) => {
 })
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/codingQuestions");
+//mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/codingQuestions");
+const connectionstring = 'mongodb+srv://mongoUser:chispa9191@cluster0.psnr0.mongodb.net/codingQuestions?retryWrites=true&w=majority';
+mongoose.connect(connectionstring);
+
+
 
 // app.get('/', function(req, res){
 //   res.send('Hello World');
